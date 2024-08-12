@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Satisfy&display=swap');
+
+:root {
+    --cor-primaria:#F3F5FC;
+    --cor-secundaria:#FFFFFF;
+    --cor-tres:#0A3871;
+    --cor-quatro:#072B61;
+    --cor-cinco:#495057;
+    --cor-seis:#D8DFE8;
+    --Fonte-Primaria:'Inter'; 
+    --fonte-secundaria:'Satisfy'
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-primaria);
+    
+}
+
+.header {
+     padding: 20px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.container__Logotipo {
+    padding: 20px;
+}
+
+#Logotipo{
+    width: 100px;
+    height: 48px;
+}
+
+.div2{
+    width: 600px;
+    height: 800px; 
+    position: absolute;
+    top: 20px; 
+    border-radius: 32px;
+    padding: 20px;
+    box-sizing: border-box; 
+    left: 200px;
+
+}
+
+.container__Resultado {
+    width: 400px;
+    height: 670px; 
+    position: absolute; 
+    top: 20px; 
+    border-radius: 32px;
+    padding: 20px;
+    box-sizing: border-box; 
+    right: 1px;
+    background-color: var(--cor-secundaria);
+}
+
+#Resultado__Imagem {
+    width: 336px;
+    height: 304px;
+    position: absolute; 
+    top: 30px; 
+    left: 35px; 
+}
+
+#Resultado__h1{
+    width: 336px;
+    height: 58px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    top: 350px;
+    font-family: var(--Fonte-Primaria);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+
+
+}
+
+#Resultado__p{
+    width: 336px;
+    height: 58px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    top: 420px;
+    left: 50%;
+    font-family:var(--Fonte-Primaria);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    transform: translateX(-50%);
+
+}
+
+
+#textarea {
+    width: 500px;
+    height: 300px;
+    top: 168px;
+    left: 240px;
+    gap: 0px;
+    opacity: 0px;
+    border: none; 
+    outline: none; 
+    border-radius: 4px;
+    resize: none; 
+    background-color: var(--cor-primaria);
+    font-family: var(--Fonte-Primaria);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: var(--cor-quatro);
+}
+
+.textarea-container {
+    padding: 20px;
+    align-items: left;
+    
+}
+
+
+.buttom__container{
+  
+    bottom: 200px;
+    left: 50px;
+    align-items: center;
+    gap: 24px;
+}
+
+.subtitulo__container { 
+    position: absolute; 
+    top: 510px; 
+    border-radius: 32px;
+    display: flex; 
+    align-items: center; 
+    white-space: nowrap;
+    max-width: 100%;
+    width: 300px;
+}
+
+#subtitulo{
+width: 228px;
+height: 18px;
+gap: 0px;
+opacity: 0px;
+font-family: var(--Fonte-Primaria);
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+
+color: var(--cor-cinco);
+}
+
+#Alerta__Imagem {
+    margin-right: 10px; 
+    width: 16px; 
+    height: 16px; 
+}
+
+#buttom__criptografar {
+    width: 280px;
+    height: 70px;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 25px;
+    top: 550px;
+    right: 310px;
+    position: absolute;
+    font-family: var(--Fonte-Primaria);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    background-color: var(--cor-quatro);
+    color: var(--cor-secundaria);
+    border: none;
+
+}
+
+#buttom__descriptografar {
+    width: 280px;
+    height: 70px;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 25px;
+    position: absolute;
+    top: 550px;
+    left: 300px;
+    font-family: var(--Fonte-Primaria);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    background-color: var(--cor-seis);
+    color: var(--cor-tres);
+    border: 2px solid var(--cor-quatro); 
+
+
+}
+
+#buttom__copiar {
+    width: 280px;
+    height: 70px;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 25px;
+    position: absolute;
+    top: 550px;
+    right: 50px;
+    font-family: var(--Fonte-Primaria);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    background-color: var(--cor-seis);
+    color: var(--cor-tres);
+    border: 2px solid var(--cor-quatro);
+    display: none;
+
+
+}
+
+#Resultado__final{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--Fonte-Primaria);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: var(--cor-cinco);
+    padding: 10px;
+    white-space: normal;
+    height: 400px;
+    display: none;
+    resize: none;
+    border: none;
+    outline: none;
+    pointer-events: none; 
+    user-select: text; 
+    overflow: scroll;
+    
+}
+
+.footer {
+    position: absolute;
+    top: 700px;
+    width:850px;
+    height: 100px;
+
+}
+
+#footer__texto {
+    font-family: var(--Fonte-Primaria);
+}
+
+#footer__nome {
+    font-family: var(--fonte-secundaria);
+}
+
+#footer__imagem {
+    width: 50px;
+}
+
+
+ /* Area de Compatibilidade com dispositivos */
+
+ /* Dispositivos Moveis (Celular) */
+
+@media (min-width: 375px) and (max-width:600px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+        height: 100vh;
+    }
+
+    .div2 {
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: auto;
+        height: auto;
+        position: relative;
+    }
+
+    .container__Resultado{
+        position: absolute;
+        top: 500px;
+        height: 180px;
+        border-radius: 50px;
+        width: 95%;
+    }
+
+    #textarea {
+        width: 100%;
+        height: 90px;
+        font-size: 18px;
+    }
+
+    .subtitulo__container { 
+        position: absolute; 
+        top: 220px; 
+        border-radius: 32px;
+        display: flex; 
+        align-items: center; 
+        white-space: nowrap;
+        max-width: 100%;
+        width: 300px;
+    }
+    
+    #subtitulo{
+    width: 228px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--Fonte-Primaria);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    
+    color: var(--cor-cinco);
+    }
+    
+    #Alerta__Imagem {
+        margin-right: 10px; 
+        width: 16px; 
+        height: 16px; 
+    }
+
+    #buttom__criptografar{
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 250px;
+        margin-top: 10px;
+        font-size: 14px;
+        height: 50px;   
+        text-align: center;
+
+    }
+    #buttom__copiar {
+    
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 180px;
+    margin-top: 10px;
+    font-size: 14px;
+    height: 50px;
+    text-align: center;
+
+    }
+    #buttom__descriptografar{
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 310px;
+        margin-top: 10px;
+        font-size: 14px;
+        height: 50px;
+        text-align: center;
+
+    }
+
+    #Resultado__Imagem {
+     display: none;
+    }
+
+    #Resultado__h1{
+        font-size: 18px;
+        position: absolute;
+        top: 50px;
+    }
+
+    #Resultado__p{
+        font-size: 18px;
+        position: absolute;
+        top: 90px;
+    }
+
+    #Resultado__final {
+        width: 300px;
+        height: 90px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .footer {
+        top: 500px;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    #footer__imagem {
+        width: 40px;
+    }
+
+}
+
+ /* Dispositivos Moveis (Tablet) */
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+        height: 100vh;
+    }
+
+    .div2 {
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: auto;
+        height: auto;
+        position: relative;
+    }
+
+    .container__Resultado{
+        position: absolute;
+        top: 500px;
+        height: 180px;
+        border-radius: 50px;
+        width: 95%;
+    }
+
+    #textarea {
+        width: 100%;
+        height: 90px;
+        font-size: 18px;
+    }
+
+    .subtitulo__container { 
+        position: absolute; 
+        top: 220px; 
+        border-radius: 32px;
+        display: flex; 
+        align-items: center; 
+        white-space: nowrap;
+        max-width: 100%;
+        width: 300px;
+    }
+    
+    #subtitulo{
+    width: 228px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--Fonte-Primaria);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    
+    color: var(--cor-cinco);
+    }
+    
+    #Alerta__Imagem {
+        margin-right: 10px; 
+        width: 16px; 
+        height: 16px; 
+    }
+
+    #buttom__criptografar{
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 250px;
+        margin-top: 10px;
+        font-size: 14px;
+        height: 50px;   
+        text-align: center;
+
+    }
+    
+    #buttom__descriptografar{
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 310px;
+        margin-top: 10px;
+        font-size: 14px;
+        height: 50px;
+        text-align: center;
+
+    }
+    
+    #buttom__copiar {
+    
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 180px;
+    margin-top: 10px;
+    font-size: 14px;
+    height: 50px;
+    text-align: center;
+
+    }
+
+    #Resultado__Imagem {
+     display: none;
+    }
+
+    #Resultado__h1{
+        font-size: 18px;
+        position: absolute;
+        top: 50px;
+    }
+
+    #Resultado__p{
+        font-size: 18px;
+        position: absolute;
+        top: 90px;
+    }
+
+    #Resultado__final {
+        width: 300px;
+        height: 90px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .footer {
+        top: 400px;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    #footer__imagem {
+        width: 40px;
+    }
+}

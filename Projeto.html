@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia de Textos</title>
+    <link rel="stylesheet" href="Styless.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container__Logotipo">
+            <img id="Logotipo" src="/assets/imagens/Alura.png" alt="Logotipo">
+        </div>
+        <div class="div2">
+            <div class="textarea-container">
+                <textarea id="textarea" placeholder="Insira sua mensagem"></textarea>
+            </div>
+            <div class="buttom__container">
+                <button id="buttom__criptografar" onclick="criptografar()">Criptografar</button>
+                <button id="buttom__descriptografar" onclick="descriptografar()">Descriptografar</button>   
+            </div>
+            <div class="subtitulo__container">
+                <img id="Alerta__Imagem" src="/assets/imagens/Alerta.png" alt="alerta png">
+                <p id="subtitulo">Apenas letras minúsculas e sem acento.</p>
+            </div>
+        </div>
+        <div class="container__Resultado">
+            <div class="Resultado">   
+                <img id="Resultado__Imagem" src="/assets/imagens/Resultado.png" alt="">
+                <h1 id="Resultado__h1">Nenhuma mensagem encontrada</h1>
+                <p id="Resultado__p">Digite um texto que você deseja criptografar ou descriptografar.</p> 
+            <div>
+                    <textarea name="" id="Resultado__final"></textarea>
+             </div>
+                <button id="buttom__copiar" onclick="copiarTexto()" style="display: none;">Copiar</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <a href="https://github.com/KaikyBrener" target="_blank">
+            <img id="footer__imagem" src="/assets/imagens/Github.png" alt="Imagem github">
+        </a>
+        <footer id="footer__texto">Desenvolvido Por <b id="footer__nome">Kaiky Brener</b></footer>
+    </div>
+
+</body>
+</html>
