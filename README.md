@@ -1,8 +1,8 @@
-# 📜 Criptografia de Textos
+# 📜 Decodificador de Textos
 
 ## 🌟 Sobre
 
-**Criptografia de Textos** é uma ferramenta rápida e eficiente para criptografar e descriptografar mensagens ou segredos. Desenvolvida para proteger informações sensíveis de forma simples e segura.
+**Decodificador de Textos** é uma ferramenta rápida e eficiente para criptografar e descriptografar mensagens ou segredos. Desenvolvida para proteger informações sensíveis de forma simples e segura.
 
 ## 🚀 Funcionalidades
 
