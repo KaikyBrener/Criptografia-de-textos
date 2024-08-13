@@ -11,7 +11,7 @@
 - 🎨 **Interface Amigável**: Design intuitivo e responsivo, facilitando a utilização da ferramenta em qualquer dispositivo.
 
 ## 🛠️ Clone o Repositório**
-   git clone https://github.com/KaikyBrener/Criptografia-de-textos.git
+   git clone https://github.com/KaikyBrener/decodificador-de-Textos
 
     Utilize a Ferramenta
 
